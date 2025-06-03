@@ -4,10 +4,12 @@ on:
   push:
     branches:
       - main
+      - vanha17
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
       - main
+      - vanha17
 
 jobs:
   build_and_deploy_job:
